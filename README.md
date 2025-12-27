@@ -1,6 +1,6 @@
 # DepthCalculation
 
-# Eng:
+# 🇺🇸 Eng:
 
 A C++ console application that calculates the **water filling depth (`h`)** of a trapezoidal channel using geometric parameters.
 
