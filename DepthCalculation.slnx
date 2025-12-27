@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="DepthCalculation/DepthCalculation.vcxproj" Id="c8bc187d-dbf3-4f85-9f70-95fd521e2754" />
+</Solution>
