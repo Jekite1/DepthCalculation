@@ -11,6 +11,7 @@ The program requires the following data for calculation:
 | Channel slope coefficient | `i` | Dimensionless value (e.g., 0.001 – 0.01) |
 | Side slope ratio | `m` | Horizontal projection / vertical rise |
 | Bottom width | `b` | Channel width at the base (meters) |
+| Roughness coefficient | `n` | Manning’s coefficient (depends on channel material) |
 
 
 
@@ -37,6 +38,7 @@ When entering fractional numbers (decimals), you **must use a dot (.)** as a sep
 | Уклон дна и валов | `i` | Безразмерный коэффициент (например 0.001 – 0.01) |
 | Коэффициент откоса | `m` | Горизонтальная проекция / вертикальный подъём |
 | Ширина по дну | `b` | Ширина канала в нижней части, в метрах |
+| Коэффициент шероховатости | `n` | Коэффициент Маннинга (зависит от материала стенок/дна) |
 
 
 ## ⚠️ Важное примечание
