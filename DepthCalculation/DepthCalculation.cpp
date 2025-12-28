@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <math.h>
+#include <fstream>
 
 using namespace std;
 
@@ -61,12 +62,18 @@ int main()
 	}
 
 	// Выводим результат подбора
+	cout << "\n";
 	cout << "Cross-sectional area 'w' = " << w << "\n";
 	cout << "Wetted perimeter 'X' = " << X << "\n";
 	cout << "Hydraulic radius 'R' = " << R << "\n";
 	cout << "Chezy coefficient 'C' = " << C << "\n";
 	cout << "Q calculated = " << Qr << " = Q given = " << Qz << "\n";
 	cout << "Filling depth 'h' = " << h << " meters" << "\n";
+
+	// Для выхода из программы
+	cout << "\n" << "Press Enter to Exit";
+	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+	std::cin.get();
 
 	return 0;
 }
