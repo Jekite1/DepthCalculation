@@ -1,5 +1,7 @@
 # DepthCalculation
 
+![alt text](https://github.com/Jekite1/DepthCalculation/blob/master/DepthCalculation.svg?raw=true)
+
 # 🇺🇸 Eng:
 
 A C++ console application that calculates the **water filling depth (`h`)** of a trapezoidal channel using geometric parameters.
