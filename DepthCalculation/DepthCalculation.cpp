@@ -2,8 +2,8 @@
 //
 
 #include <iostream>
-#include <math.h>
-#include <fstream>
+#include <cmath>
+#include <limits>
 
 using namespace std;
 
@@ -72,8 +72,9 @@ int main()
 
 	// Для выхода из программы
 	cout << "\n" << "Press Enter to Exit";
-	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-	std::cin.get();
+	cin.ignore(numeric_limits<streamsize>::max(), '\n');
+	cin.get();
+
 
 	return 0;
 }
